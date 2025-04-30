@@ -1,5 +1,5 @@
-Git_checkout(repo_url,branch)
+def call(String Git_url,String Git_branch)
 {
-    git_branch: branch
-    url: repo_url
-}
+    git url: "$(Git_url)",
+    git_branch: "$(Git_branch)"
+}    
