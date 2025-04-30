@@ -1,4 +1,4 @@
 def call()
 {
-    Sh "trivy fs ."
+    sh "trivy fs ."
 }
